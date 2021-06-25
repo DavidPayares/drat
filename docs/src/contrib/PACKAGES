@@ -4,11 +4,10 @@ Depends: R (>= 3.0), methods, ANTsRCore (>= 0.7.4)
 Imports: graphics, grDevices, magrittr, stats, utils
 LinkingTo: Rcpp, ITKR, ANTsRCore
 Suggests: magic, psych, rsvd, abind, BGLR, caret, cluster, corpcor, DMwR, dplyr, e1071,
-         extremevalues, fastICA, fpc, ggplot2, glasso, glmnet, grid, hdf5r, ifultools,
-         igraph, irlba, knitr, MASS, Matrix, mFilter, misc3d, moments, networkD3,
-         pixmap, png, pracma, randomForest, R.matlab, Rcpp, RcppEigen, RcppHNSW, rgl,
-         rmarkdown, robust, robustbase, signal, sna, testthat, tools, viridis, visreg,
-         wmtsa, xgboost, FNN
+           extremevalues, fastICA, fpc, ggplot2, glasso, glmnet, grid, hdf5r, ifultools, igraph,
+           irlba, knitr, MASS, Matrix, mFilter, misc3d, moments, networkD3, pixmap, png, pracma,
+           randomForest, R.matlab, Rcpp, RcppEigen, RcppHNSW, rgl, rmarkdown, robust, robustbase,
+           signal, sna, testthat, tools, viridis, visreg, wmtsa, xgboost, FNN
 License: Apache License 2.0
 MD5sum: 88b24884a556b5f867b79b70f112a8a7
 NeedsCompilation: yes
@@ -23,6 +22,16 @@ License: Apache License (>= 2.0)
 Archs: lib
 MD5sum: b153034dac7a661bb8d465d7808cef6a
 NeedsCompilation: yes
+
+Package: extrantsr
+Version: 3.1.1
+Imports: methods, stats, grDevices, graphics, utils, oro.nifti, ANTsR (>= 0.6), ANTsRCore (>=
+           0.3.4), neurobase (>= 1.20.5), fslr (>= 2.9.2), WhiteStripe, matrixStats, R.matlab,
+           abind, R.utils, neuroim, plyr
+Suggests: knitr, rmarkdown, kirby21.t1, covr
+License: GPL-3 | file LICENSE
+MD5sum: 72006deda5b23e84ee282c834325a874
+NeedsCompilation: no
 
 Package: ITKR
 Version: 0.5.3.3.0
