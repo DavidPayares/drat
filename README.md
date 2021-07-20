@@ -13,4 +13,11 @@ This repository contains the dependencies version of the [`NeuroNorm`](https://g
 - [x] [MNITemplate](https://github.com/Jfortin1/MNITemplate)
 - [x] [RAVEL](https://github.com/Jfortin1/RAVEL)
 
+## Installation
 
+You can install all the packages in this repo by using `devtools`.
+
+``` r
+# install.packages("devtools")
+devtools::install_github("DavidPayares/drat")
+```
