@@ -1,0 +1,68 @@
+Package: ANTsR
+Version: 0.5.7.4
+Depends: R (>= 3.0), methods, ANTsRCore (>= 0.7.4)
+Imports: graphics, grDevices, magrittr, stats, utils
+LinkingTo: Rcpp, ITKR, ANTsRCore
+Suggests: magic, psych, rsvd, abind, BGLR, caret, cluster, corpcor, DMwR, dplyr,
+         e1071, extremevalues, fastICA, fpc, ggplot2, glasso, glmnet, grid, hdf5r,
+         ifultools, igraph, irlba, knitr, MASS, Matrix, mFilter, misc3d, moments,
+         networkD3, pixmap, png, pracma, randomForest, R.matlab, Rcpp, RcppEigen,
+         RcppHNSW, rgl, rmarkdown, robust, robustbase, signal, sna, testthat,
+         tools, viridis, visreg, wmtsa, xgboost, FNN
+License: Apache License 2.0
+MD5sum: 88b24884a556b5f867b79b70f112a8a7
+NeedsCompilation: yes
+
+Package: ANTsRCore
+Version: 0.7.4.9
+Depends: methods, R (>= 2.10)
+Imports: Rcpp, ITKR (>= 0.5.0), RcppEigen, tools, magrittr, stats, utils
+LinkingTo: Rcpp, ITKR
+Suggests: abind, colormap, covr, knitr, pixmap, rmarkdown, testthat, viridis
+License: Apache License (>= 2.0)
+Archs: lib
+MD5sum: b153034dac7a661bb8d465d7808cef6a
+NeedsCompilation: yes
+
+Package: extrantsr
+Version: 3.1.1
+Imports: methods, stats, grDevices, graphics, utils, oro.nifti, ANTsR (>= 0.6),
+         ANTsRCore (>= 0.3.4), neurobase (>= 1.20.5), fslr (>= 2.9.2),
+         WhiteStripe, matrixStats, R.matlab, abind, R.utils, neuroim, plyr
+Suggests: knitr, rmarkdown, kirby21.t1, covr
+License: GPL-3 | file LICENSE
+MD5sum: 72006deda5b23e84ee282c834325a874
+NeedsCompilation: no
+
+Package: ITKR
+Version: 0.5.3.3.0
+Imports: Rcpp
+LinkingTo: Rcpp
+License: Apache License (>= 2.0)
+Archs: bin, include, lib, share
+MD5sum: 16f70443902d2d700f8edf4de49773db
+NeedsCompilation: yes
+
+Package: MNITemplate
+Version: 1.0.0
+Imports: oro.nifti
+Suggests: covr, testthat
+License: GPL-2
+MD5sum: f0c884aa9eee845040bd7d8662cb1bf8
+NeedsCompilation: no
+
+Package: neurodata
+Version: 1.0.0
+Depends: R (>= 3.5)
+Imports: knitr,
+License: GPL-2
+MD5sum: 24f644380bda690bf541dbf2bc7e1a4a
+NeedsCompilation: no
+
+Package: RAVEL
+Version: 1.2.2
+Imports: methods, WhiteStripe, oro.nifti, neurobase, pbapply, limma
+Suggests: BiocStyle, knitr, RAVELData, EveTemplate, rmarkdown, covr, testthat
+License: GPL-2
+MD5sum: 9fa0ed7f1e7bd9fb53d6674ed75dda27
+NeedsCompilation: no
