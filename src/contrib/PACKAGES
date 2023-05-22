@@ -45,7 +45,7 @@ Version: 1.0.0
 Depends: R (>= 3.5)
 Imports: knitr,
 License: GPL-2
-MD5sum: 24f644380bda690bf541dbf2bc7e1a4a
+MD5sum: 80061dc312bfdaafd5436ad85c819123
 NeedsCompilation: no
 
 Package: RAVEL
