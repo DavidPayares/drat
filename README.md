@@ -6,7 +6,7 @@
 ## R Packages in this drat
 
 This repository contains the dependencies version of the [`NeuroNorm`](https://github.com/DavidPayares/neuronorm) package.
-- [x] NeuroData
+- [x] [NeuroData](https://github.com/DavidPayares/neurodata)
 - [x] [ANTsR](https://github.com/stnava/ANTsR/releases/)
 - [x] [ITKR](https://github.com/stnava/ITKR)
 - [x] [extrantsr](https://github.com/muschellij2/extrantsr/releases/)
@@ -18,6 +18,5 @@ This repository contains the dependencies version of the [`NeuroNorm`](https://g
 You can install all the packages in this repo by using `devtools`.
 
 ``` r
-# install.packages("devtools")
 devtools::install_github("DavidPayares/drat")
 ```
