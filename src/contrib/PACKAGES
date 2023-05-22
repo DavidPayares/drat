@@ -48,6 +48,14 @@ License: GPL-2
 MD5sum: 80061dc312bfdaafd5436ad85c819123
 NeedsCompilation: no
 
+Package: neurodata
+Version: 1.0.1
+Depends: R (>= 4.0)
+Imports: knitr,
+License: GPL-2
+MD5sum: fe68d644c6808785a59d166e35305aaa
+NeedsCompilation: no
+
 Package: RAVEL
 Version: 1.2.2
 Imports: methods, WhiteStripe, oro.nifti, neurobase, pbapply, limma
