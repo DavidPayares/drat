@@ -1,6 +1,6 @@
 Package: ANTsR
 Version: 0.5.7.4
-Depends: R (>= 3.0), methods, ANTsRCore (>= 0.7.4)
+Depends: R (>= 4.3), methods, ANTsRCore (>= 0.7.4)
 Imports: graphics, grDevices, magrittr, stats, utils
 LinkingTo: Rcpp, ITKR, ANTsRCore
 Suggests: magic, psych, rsvd, abind, BGLR, caret, cluster, corpcor, DMwR, dplyr, e1071,
@@ -27,7 +27,7 @@ Package: ITKR
 Version: 0.5.3.3.0
 Imports: Rcpp
 LinkingTo: Rcpp
-License: Apache License (>= 2.0)
+License: Apache License (>= 4.3)
 Archs: bin, include, lib, share
 MD5sum: 86a1f5054b54359358b8c965769b647b
 NeedsCompilation: yes
@@ -42,7 +42,7 @@ NeedsCompilation: no
 
 Package: neurodata
 Version: 1.0.0
-Depends: R (>= 3.5)
+Depends: R (>= 4.3)
 Imports: knitr,
 License: GPL-2
 MD5sum: 80061dc312bfdaafd5436ad85c819123
@@ -50,7 +50,7 @@ NeedsCompilation: no
 
 Package: neurodata
 Version: 1.0.1
-Depends: R (>= 4.0)
+Depends: R (>= 4.3)
 Imports: knitr,
 License: GPL-2
 MD5sum: fe68d644c6808785a59d166e35305aaa
