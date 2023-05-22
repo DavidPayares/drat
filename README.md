@@ -15,8 +15,15 @@ This repository contains the dependencies version of the [`NeuroNorm`](https://g
 
 ## Installation
 
-You can install all the packages in this repo by using `devtools`.
+You can install all the packages in this repo by using the standard R function `install.packages`. In case a package does not install correctly, please refer to its corresponding GitHub page. Make sure the packages `ANTsRCore` and `fslr` are already installed. 
 
 ``` r
-devtools::install_github("DavidPayares/drat")
+# Install ANTsCore
+devtools::install_github('stnava/ANTsRCore')
+# Install FSLR
+devtools::install_github('muschellij2/fslr')
+
+# Install drat with packages
+packages = c("ITKR", "ANTsR","extrantsr","RAVEL","MNITemplate","neurodata")
+install.packages(packages, repos = 'https://davidpayares.github.io/drat', type = "source")
 ```
